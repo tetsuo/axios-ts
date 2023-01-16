@@ -1,0 +1,23 @@
+{
+  "name": "@onur1/axios-ts",
+  "private": true,
+  "version": "0.0.0",
+  "description": "axios for fp-ts",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "watch": "rimraf lib && tsc --watch --sourceMap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "fp-ts": "^2.13.1",
+    "io-ts": "^2.2.20"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "rimraf": "^4.0.7"
+  }
+}
