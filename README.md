@@ -2,7 +2,7 @@
 
 axios for [fp-ts](https://github.com/gcanti/fp-ts).
 
-Originally extracted from an example @gcanti made.
+Originally extracted from an example [gcanti](https://github.com/gcanti) made.
 
 ## Usage
 

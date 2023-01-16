@@ -1,1 +1,3 @@
 lib
+.npmrc
+.release

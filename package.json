@@ -8,9 +8,13 @@
     "build": "rimraf lib && tsc",
     "watch": "rimraf lib && tsc --watch --sourceMap"
   },
+  "files": [
+    "lib/**/*",
+    "LICENSE"
+  ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "axios": "^1.2.2",
     "fp-ts": "^2.13.1",
