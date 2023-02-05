@@ -2,7 +2,7 @@
 
 axios for [fp-ts](https://github.com/gcanti/fp-ts).
 
-Extracted from [elm-ts@<=0.4.4](https://github.com/gcanti/elm-ts/tree/0.4.4/src/Http.ts).
+Originally extracted from [elm-ts](https://github.com/gcanti/elm-ts/tree/0.4.4/src/Http.ts).
 
 ## Usage
 
