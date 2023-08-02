@@ -21,7 +21,7 @@ export const TRACE = 'TRACE' as const
 
 export const PATCH = 'PATCH' as const
 
-export type Method = typeof GET | typeof POST | typeof PUT | typeof PATCH | typeof OPTIONS | typeof HEAD
+export type Method = typeof GET | typeof POST | typeof PUT | typeof PATCH | typeof OPTIONS | typeof HEAD | typeof DELETE | typeof TRACE | typeof CONNECT
 
 export type Expect<A> = (value: unknown) => E.Either<string, A>
 
