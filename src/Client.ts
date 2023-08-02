@@ -101,6 +101,44 @@ export function patch<A>(
   }
 }
 
+export function put<A>(
+  url: string,
+  body: unknown,
+  expect: Expect<A>,
+  headers: {
+    [key: string]: string
+  } = {}
+): Request<A> {
+  return {
+    method: 'PUT',
+    headers,
+    url,
+    body,
+    expect,
+    timeout: O.none,
+    withCredentials: false
+  }
+}
+
+export function del<A>(
+  url: string,
+  body: unknown,
+  expect: Expect<A>,
+  headers: {
+    [key: string]: string
+  } = {}
+): Request<A> {
+  return {
+    method: 'DELETE',
+    headers,
+    url,
+    body,
+    expect,
+    timeout: O.none,
+    withCredentials: false
+  }
+}
+
 export function send<A>(
   url: string,
   body: ParsedUrlQueryInput,
