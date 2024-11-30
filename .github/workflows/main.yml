@@ -104,8 +104,7 @@ jobs:
           cd .release
 
           touch .npmrc
-          echo "//npm.pkg.github.com/:_authToken=$PUBLISH_TOKEN" > .npmrc
-          echo "@onur1:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" > .npmrc
 
           git fetch --all --tags
 

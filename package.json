@@ -1,5 +1,5 @@
 {
-  "name": "@onur1/axios-ts",
+  "name": "@tetsuo/axios-ts",
   "private": true,
   "version": "0.0.0",
   "description": "axios for fp-ts",

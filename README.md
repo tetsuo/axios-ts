@@ -13,9 +13,9 @@ For example, you can get a list of most recent posts from my blog:
 ```ts
 import * as t from 'io-ts'
 import * as E from 'fp-ts/lib/Either'
-import { toTaskEither } from '@onur1/axios-ts/lib/TaskEither'
-import { get } from '@onur1/axios-ts/lib/Client'
-import { expected } from '@onur1/axios-ts/lib/Expected'
+import { toTaskEither } from '@tetsuo/axios-ts/lib/TaskEither'
+import { get } from '@tetsuo/axios-ts/lib/Client'
+import { expected } from '@tetsuo/axios-ts/lib/Expected'
 
 const Entry = t.type({
   title: t.string,
